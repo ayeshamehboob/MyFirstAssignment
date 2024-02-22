@@ -4,17 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        h1 {
+            background-color: rgb(99, 99, 189);
+        }
+    </style>
 </head>
 <body>
 <!-- Elements in Html -->
     <!-- Heading tags -->
 
     <h1>WebPage</h1>
-    <h2>This is my second assignment</h2>
-    <h3>This is my third assignment</h3>
-    <h4>This is my forth  assignment</h4>
-    <h5>This is my fifth assignment</h5>
-    <h6>This is my sixth assignment</h6>
+    <h2>This is my second heading</h2>
+    <h3>This is my third heading</h3>
+    <h4>This is my forth  heading</h4>
+    <h5>This is my fifth heading</h5>
+    <h6 style="background-color: rgb(149, 218, 149);">This is my sixth heading</h6>
 
 <!-- Paragraph tag -->
 <!-- 'br' for line break -->
@@ -42,8 +48,68 @@
     Send Email
 </a>
 
-<img src="img/image(4).png" alt="This is an image" width="100px" height="100px">
+<img src="image (4).png" alt="This is an image" width="100px" height="100px">
 
     
 </body>
 </html>
+
+<!-- Types of Lists -->
+    <!-- 1-Unordered List -->
+    <h1>Groceries</h1>
+    <ul style="list-style-type: square;">
+
+        <li>Fruits</li>
+        <li>Vegetables</li>
+        <li>Spices</li>
+        <ul>
+            <li>Apples</li>
+            <li>Bananas</li>
+            <li>Oranges</li>
+        </ul>
+    </ul>
+
+    <!-- 2-Ordered List -->
+    <h1>To do List</h1>
+    <ol>
+        <li>Breakfast</li>
+        <li>Typing</li>
+        <li>Assignment</li>
+        <ol>
+            <li>coding</li>
+        </ol>
+    </ol>
+
+    <!-- 3-Description List -->
+    <!-- dt= Discription term -->
+    <!-- dd= 3-Description definition -->
+    <dl>
+        <dt>Python</dt>
+        <dd>Python is a language</dd>
+    </dl>
+
+  <!-- Table -->
+
+  <table style="background-color: rgb(76, 85, 61);">
+    <tr align="center" style="background-color: rgb(16, 212, 212);">
+        <th width="100">Person</th>
+        <th width="100">Age</th>
+    </tr>
+    <tr align="center" style="background-color: rgb(157, 235, 235);">
+        <td>Ajwah</td>
+        <td>08</td>
+    </tr>
+    <tr align="center" style="background-color: rgb(120, 202, 202);">
+        <td>Isha</td>
+        <td>12</td>
+    </tr>
+  </table>
+
+  
+  <!-- Button -->
+  <a href="https://www.facebook.com/iCodeguru/videos/372262752419267" target="_blank">
+  <button style="font-size: 25px; background-color: aquamarine; color: azure; border-radius: 5px;">
+
+    View More
+  </button>
+</a>
